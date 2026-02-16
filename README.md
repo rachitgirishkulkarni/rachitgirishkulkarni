@@ -1,72 +1,109 @@
-# 👋 Hello, I'm Rachit Kulkarni!
-I’m a software engineer and Master’s student in Computer Software Engineering at Arizona State University (May 2026, 4.0 GPA). I specialize in building scalable backend systems, cloud-native applications, and AI-driven tools, with experience across the full stack. I enjoy turning complex ideas into efficient, production-ready systems, exploring emerging tech, and contributing to impactful projects.
+# 👋 Hi, I’m Rachit Kulkarni
+
+Software Engineer and MS student in Computer Software Engineering at Arizona State University (May 2026, 4.0 GPA).
+
+I design scalable backend systems, event driven microservices, AI powered platforms and cloud native applications. I focus on performance, reliability and clean architecture, building production ready systems that handle real world scale.
+
+---
+
+## 🎓 Education
+
+**Arizona State University**  
+Master of Science in Computer Software Engineering  
+GPA: 4.00 / 4.00 | August 2024 – May 2026  
+
+**People’s Education Society University**  
+Bachelor of Technology in Electronics and Communication Engineering  
+GPA: 3.74 / 4.00 | August 2017 – May 2021  
 
 ---
 
 ## 💼 Professional Experience
 
-**User Experience Aide | Arizona State University** *(Feb 2025 – Present)*  
-- Modernized 50+ legacy web pages to React, improving load times by 15% and maintainability.  
-- Led CMS migration to Acquia & Drupal, boosting scalability by 30% and reducing publishing time.  
-- Conducted A/B tests on redesigned components, improving click-through rates by 12%.  
+### Quality Assurance Analyst, UX  
+**ASU Enterprise Brand Strategy and Management** | March 2025 – Present  
 
-**Software Engineer | L&T Technology Services (Client: Intel Corporation)** *(Jul 2021 – Mar 2024)*  
-- Automated Android cloud builds and deployments via Jenkins & Docker, integrating Linux networking checks.  
-- Created Python-based defect tracker, cutting critical production bugs by 60% and triage time by 40%.  
-- Analyzed 500K+ daily system logs, improving security detection speed by 40%.  
-
-**Software Engineering Intern | L&T Technology Services** *(May 2021 – Jul 2021)*  
-- Compiled Android kernels, integrated drivers, and optimized performance for Intel platforms.  
+- Engineered modular React component library deployed across 50+ university sites, reducing development time by 40%  
+- Established unit and integration test suite using Jest and React Testing Library achieving 85% coverage and reducing production bugs by 30%  
+- Optimized performance through code splitting, lazy loading and memoization reducing bundle size by 35% and improving page load time from 4.2s to 1.8s  
+- Implemented analytics integration processing 10K daily user interactions across 30K monthly users  
 
 ---
 
-## 🚀 Languages & Tools
-**Languages:** Python, Java, C++, JavaScript, TypeScript  
-**Frameworks:** React.js, Spring Boot, Flask, FastAPI  
-**Databases:** PostgreSQL, MySQL, GraphDB, Qdrant  
-**Cloud & DevOps:** Microsoft Azure, GCP, Docker, Jenkins, GitHub Actions  
-**Practices:** Agile, SDLC, TDD, HLD/LLD Design  
+### Software Engineer  
+**Larsen and Toubro Technology Services | Client: Intel** | January 2022 – March 2024  
+
+- Architected microservices platform handling 500K daily device events using event driven architecture improving throughput by 35% across 15 services  
+- Built RESTful APIs using Spring Boot with Redis caching and connection pooling reducing response time from 800ms to 210ms under 2000+ concurrent users  
+- Developed real time monitoring dashboard using React and WebSockets with automated alerting across multiple data centers  
+- Designed MySQL and DynamoDB persistence layers handling 100K+ daily writes with 99.95% write success rate  
+- Documented APIs using OpenAPI and Swagger reducing integration time for 8 partner teams by 40%  
 
 ---
 
-## 🌱 Currently Learning at ASU
+## 🚀 Featured Projects
 
-**Fall 2024:**  
-- Advanced Data Structures and Algorithms  
-- Advanced Software Engineering  
-- Semantic Web Engineering  
+### AutoSpec Architect  
+**Tech:** FastAPI, Python, LangChain, Qdrant, PostgreSQL, Docker  
 
-**Spring 2025:**  
-- Mobile Systems  
-- Emerging Languages and Programming Paradigms  
-- Software Verification and Validation  
+AI powered system generating High Level Design and Low Level Design specifications directly from PRDs.
 
-**Fall 2025:**  
-- Data Processing at Scale  
-- Software Requirements and Specifications  
-- Game Programming  
-
-**Spring 2026:**  
-- Capstone Project *(Coming soon)*  
+- Built FastAPI application generating HLD and LLD artifacts using LLM driven architecture reasoning  
+- Integrated Qdrant vector database with LangChain achieving 92% retrieval accuracy for architecture context  
+- Processed 100+ stored architecture patterns to enhance design generation  
 
 ---
 
-## 🎯 Featured Projects
+### Real Time ETL Pipeline  
+**Tech:** Kubernetes, Kafka, Zookeeper, Neo4j, Docker, Python  
 
-**[AutoSpec Architect](https://github.com/rachitgirishkulkarni/AutoSpecDesign)** *(FastAPI, LangChain, Qdrant, Mermaid.js, React)*  
-AI-powered tool converting PRDs into HLD/LLD, SQL schemas, and system diagrams, reducing design errors by 25%.  
-
-**[ArtTrack](https://github.com/rachitgirishkulkarni/ArtTrack)** *(React.js, Flask, GraphDB, Azure)*  
-SPARQL-based semantic web platform processing 5K+ artwork records with real-time filtering, cutting query times by 400ms.  
-
-**[Scrum Simulator](https://github.com/rachitgirishkulkarni/ScrumSimulator)** *(Java, Swing, Spring Boot)*  
-Agile sprint simulation tool with TDD workflows achieving 85% test coverage and faster project cycles.  
-
-**[FinTrack](https://github.com/rachitgirishkulkarni/fintrack)** *(Java, Spring Boot, MySQL)*  
-Finance tracker with authentication, analytics dashboard, and optimized backend queries.  
+- Architected end to end ETL pipeline orchestrating 5 microservices on Kubernetes processing 20K NYC taxi records with 100% data integrity  
+- Implemented graph analytics including PageRank and BFS for route optimization  
+- Enabled horizontal autoscaling based on Kafka consumer lag  
 
 ---
 
-## 🤝 Let’s Connect!
-- [LinkedIn](https://www.linkedin.com/in/rachitkulkarni)  
-- [Portfolio](https://rachitgirishkulkarni.vercel.app)  
+### Meal Nutrition Analysis  
+**Tech:** Python, PyTorch, Scikit learn  
+
+- Integrated CNNs, bidirectional LSTMs and fully connected networks for calorie estimation  
+- Improved model precision by 12% on 25K sample dataset  
+
+---
+
+### Card Game Based Scrum Analyzer  
+**Tech:** Java, Spring Boot, Swing, Mockito  
+
+- Built Scrum simulation tool with randomized blocker and progress cards  
+- Developed sprint export feature enabling retrospective analytics  
+
+---
+
+## 🛠 Technical Skills
+
+**Languages**  
+Java, Python, C++, TypeScript  
+
+**Backend**  
+Spring Boot, FastAPI, RESTful APIs, Microservices, Event Driven Architecture  
+
+**Databases**  
+PostgreSQL, MySQL, MongoDB, Redis, DynamoDB  
+
+**Cloud and Infrastructure**  
+AWS EC2 S3 Lambda RDS  
+Azure AKS Service Bus  
+Docker, Kubernetes  
+
+**AI and ML**  
+LangChain, GPT 4, PyTorch, Scikit learn, Qdrant  
+
+**Frontend**  
+React, HTML5, CSS3  
+
+---
+
+## 📫 Connect With Me
+
+- LinkedIn: https://www.linkedin.com/in/rachitkulkarni  
+- Portfolio: https://rachitkulkarni.com  
